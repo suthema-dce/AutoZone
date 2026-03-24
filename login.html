@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carlos Iago e Matheus de Cristo">
+    <meta name="description" content="Tela de login da AutoZone Brasil">
+    <meta name="keywords" content="login, AutoZone, peças automotivas">
+    <title>Login - AutoZone Brasil</title>
+    <link rel="stylesheet" href="css/estiloautozone.css">
+</head>
+<body>
+
+    <header class="topo">
+        <div class="container topo-inner">
+            <div class="logo-area">
+                <img src="img/Logo.png" alt="Logomarca da AutoZone Brasil" width="150">
+                <h1>AutoZone Brasil</h1>
+            </div>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="cadastro.html">Cadastro</a>
+    </nav>
+
+    <main class="auth">
+        <section class="auth-card">
+            <h2>Login</h2>
+
+            <form id="formLogin">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" required>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" required>
+
+                <p id="mensagemLogin"></p>
+
+                <button type="submit">Entrar</button>
+            </form>
+
+            <a href="cadastro.html" class="link">Não tenho conta</a>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

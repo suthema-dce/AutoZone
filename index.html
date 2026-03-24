@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carlos Iago e Matheus de Cristo">
+    <meta name="description" content="Loja virtual AutoZone Brasil especializada em peças automotivas">
+    <meta name="keywords" content="AutoZone, peças automotivas, loja virtual, carro, bateria, óleo, filtro">
+    <title>AutoZone Brasil</title>
+    <link rel="stylesheet" href="css/estiloautozone.css">
+</head>
+<body>
+
+    <header class="topo">
+        <div class="container topo-inner">
+            <div class="logo-area">
+                <img src="img/Logo.png" alt="Logomarca da AutoZone Brasil" width="150">
+                <h1>AutoZone Brasil</h1>
+            </div>
+
+            <div class="acessibilidade">
+                <button onclick="aumentarFonte()">A+</button>
+                <button onclick="diminuirFonte()">A-</button>
+                <button onclick="alternarContraste()">Contraste</button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#">Promoções</a>
+        <a href="#">Contato</a>
+        <a href="login.html">Login</a>
+        <a href="cadastro.html">Cadastro</a>
+    </nav>
+
+    <section class="banner">
+        <div class="banner-texto">
+            <h2>As Melhores Peças Para Seu Carro</h2>
+            <p>Qualidade, segurança e preço justo para você.</p>
+        </div>
+    </section>
+
+    <section class="beneficios">
+        <div>🚚 Entrega Rápida</div>
+        <div>🔒 Garantia de Qualidade</div>
+        <div>💳 Pagamento Seguro</div>
+    </section>
+
+    <main class="container">
+        <h2 id="produtos" class="titulo-secao">Produtos em Destaque</h2>
+
+        <section class="produtos">
+            <article class="card">
+                <span class="promo">Promoção</span>
+                <img src="img/filtro.png" alt="Filtro de óleo automotivo">
+                <h3>Filtro de Óleo</h3>
+                <p>R$ 39,90</p>
+                <button>Comprar</button>
+            </article>
+
+            <article class="card">
+                <span class="promo">Mais vendido</span>
+                <img src="img/bateria.png" alt="Bateria automotiva 60Ah">
+                <h3>Bateria 60Ah</h3>
+                <p>R$ 399,90</p>
+                <button>Comprar</button>
+            </article>
+
+            <article class="card">
+                <span class="promo">Novo</span>
+                <img src="img/oleo.png" alt="Óleo de motor 5W30">
+                <h3>Óleo 5W30</h3>
+                <p>R$ 59,90</p>
+                <button>Comprar</button>
+            </article>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>© 2026 AutoZone Brasil - Todos os direitos reservados</p>
+        <p>Projeto acadêmico</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
